@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgrounds</title>
+    <style>
+        #paragrafo{
+            background-color: cadetblue;
+            opacity: 0.3;
+        }
+        div.config-box{
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border: 1px solid black;
+            background-color: burlywood;
+        }
+
+        div#box1{
+            opacity: 1;
+        }
+        div#box2{
+            opacity: 0.6;
+        }
+        div#box3{
+            opacity: 0.3;
+        }
+        div#box4{
+            opacity: 0.1;
+        }
+        div#image{
+            background: chocolate url("book.png") no-repeat center center;
+            width: 300px;
+            height: 300px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>backgrounds</h1>
+    <h2>background-color</h2>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus accusamus quidem sed vitae pariatur expedita vero explicabo atque! Porro repudiandae quisquam accusamus dignissimos similique perferendis obcaecati non. Veritatis, temporibus ullam.</p>
+    <h3>Opacity/transparency</h3>
+    <div class="config-box" id="box1">opacity 1</div>
+    <div class="config-box" id="box2">opacity 0.6</div>
+    <div class="config-box" id="box3">opacity 0.3</div>
+    <div class="config-box" id="box4">opacity 0.1</div>
+
+    <div id="image"></div>
+
+</body>
+</html>
